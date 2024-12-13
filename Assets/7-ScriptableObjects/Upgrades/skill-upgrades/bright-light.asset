@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5790c66022b1be94cbf43cffb3c4fbe0, type: 3}
+  m_Name: bright-light
+  m_EditorClassIdentifier: 
+  upgradeName: Bright Light
+  description: Enemies inside your light range are slowred by #power. When your wind-up
+    is greater than #winT, your light range increases by #range.
+  sprite: {fileID: 21300000, guid: edc4702c75980ba4caaf3b186658c6f8, type: 3}
+  doLevelUp: 0
+  maxLevel: 5
+  level: 1
+  openStyle: <style="SpecialValue">
+  closeStyle: </style>
+  active: 0
+  occasion: 0
+  inCooldown: 0
+  power: 0.3
+  range: 1
+  duration: 0
+  cooldown: 0
+  windUpTimes: 20
+  slowEnemies: 0
+  acceleratePlayer: 0
+  grantInvencibility: 0
+  levelUp:
+    lv_power: 0.06
+    lv_range: 0.05
+    lv_duration: 0
+    lv_cooldown: 0
+    lv_windUpTimes: -2
+  skillObject: {fileID: 2825411026776740561, guid: 206e494fed19cc84baf4f0f9d6c33c4a, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5790c66022b1be94cbf43cffb3c4fbe0, type: 3}
+  m_Name: disabling-wave
+  m_EditorClassIdentifier: 
+  upgradeName: Disabling Wave
+  description: When winding-up #winT times in a row, slow enemies around by #power
+    for #dura seconds. Has a cooldown of #cd seconds.
+  sprite: {fileID: 21300000, guid: 0d230d9bcfc998542b0cc1d6a11d5c5a, type: 3}
+  doLevelUp: 0
+  maxLevel: 5
+  level: 1
+  openStyle: <style="SpecialValue">
+  closeStyle: </style>
+  active: 1
+  occasion: 1
+  inCooldown: 0
+  power: 0.6
+  range: 10
+  duration: 5
+  cooldown: 20
+  windUpTimes: 10
+  slowEnemies: 1
+  acceleratePlayer: 0
+  grantInvencibility: 0
+  levelUp:
+    lv_power: 0
+    lv_range: 5
+    lv_duration: 1
+    lv_cooldown: 0
+    lv_windUpTimes: 0
+  skillObject: {fileID: 0}
+  sfx: {fileID: 8300000, guid: fea046d5ad65dff4f89655bd90776fd4, type: 3}
+  vfx: {fileID: 1908847385453368456, guid: 19a5c3520b5a6da4dad8f41d6df3cd1c, type: 3}
